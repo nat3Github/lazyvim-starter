@@ -5,10 +5,13 @@ if true then
       "williamboman/mason.nvim",
       opts = {
         ensure_installed = {
-          --"rust_analyzer",
+          --rust-analyzer",
           "codelldb",
         },
       },
+    },
+    {
+      "mfussenegger/nvim-dap",
     },
   }
 end
