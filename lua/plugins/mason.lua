@@ -5,11 +5,7 @@ if true then
       "williamboman/mason.nvim",
       opts = {
         ensure_installed = {
-          "stylua",
-          "shellcheck",
-          "shfmt",
-          "flake8",
-          "rust-analyzer",
+          --"rust_analyzer",
           "codelldb",
         },
       },
