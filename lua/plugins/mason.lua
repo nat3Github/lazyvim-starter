@@ -10,8 +10,8 @@ if true then
         },
       },
     },
-    {
-      "mfussenegger/nvim-dap",
-    },
+    -- {
+    --   "mfussenegger/nvim-dap",
+    -- },
   }
 end
